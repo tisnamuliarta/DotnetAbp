@@ -9,6 +9,15 @@
   "modules": {
     "DotnetAbp": {
       "path": "DotnetAbp.abpmdl"
+    },
+    "Product": {
+      "path": "modules/product/Product.abpmdl"
+    },
+    "Sales": {
+      "path": "modules/sales/Sales.abpmdl"
+    },
+    "Inventory": {
+      "path": "modules/inventory/Inventory.abpmdl"
     }
   },
   "runProfiles": {
@@ -42,7 +51,6 @@
     "createInitialMigration": "true",
     "theme": "leptonx-lite",
     "themeStyle": "",
-    "mobileFramework": "none",
     "progressiveWebApp": "false",
     "runProgressiveWebAppSupport": "false",
     "publicWebsite": "false",

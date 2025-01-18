@@ -1,0 +1,54 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Sales.Domain": {
+      "path": "src/Sales.Domain/Sales.Domain.abppkg",
+      "folder": "src"
+    },
+    "Sales.Application.Contracts": {
+      "path": "src/Sales.Application.Contracts/Sales.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Sales.Application": {
+      "path": "src/Sales.Application/Sales.Application.abppkg",
+      "folder": "src"
+    },
+    "Sales.EntityFrameworkCore": {
+      "path": "src/Sales.EntityFrameworkCore/Sales.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Sales.HttpApi": {
+      "path": "src/Sales.HttpApi/Sales.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Sales.HttpApi.Client": {
+      "path": "src/Sales.HttpApi.Client/Sales.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Sales.TestBase": {
+      "path": "test/Sales.TestBase/Sales.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Sales.EntityFrameworkCore.Tests": {
+      "path": "test/Sales.EntityFrameworkCore.Tests/Sales.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Sales.Domain.Tests": {
+      "path": "test/Sales.Domain.Tests/Sales.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Sales.Application.Tests": {
+      "path": "test/Sales.Application.Tests/Sales.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Sales.Domain.Shared": {
+      "path": "src/Sales.Domain.Shared/Sales.Domain.Shared.abppkg",
+      "folder": "src"
+    }
+  }
+}

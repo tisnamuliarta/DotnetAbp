@@ -1,0 +1,54 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Inventory.Domain": {
+      "path": "src/Inventory.Domain/Inventory.Domain.abppkg",
+      "folder": "src"
+    },
+    "Inventory.Application.Contracts": {
+      "path": "src/Inventory.Application.Contracts/Inventory.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Inventory.Application": {
+      "path": "src/Inventory.Application/Inventory.Application.abppkg",
+      "folder": "src"
+    },
+    "Inventory.EntityFrameworkCore": {
+      "path": "src/Inventory.EntityFrameworkCore/Inventory.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Inventory.HttpApi": {
+      "path": "src/Inventory.HttpApi/Inventory.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Inventory.HttpApi.Client": {
+      "path": "src/Inventory.HttpApi.Client/Inventory.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Inventory.TestBase": {
+      "path": "test/Inventory.TestBase/Inventory.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Inventory.EntityFrameworkCore.Tests": {
+      "path": "test/Inventory.EntityFrameworkCore.Tests/Inventory.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Inventory.Domain.Tests": {
+      "path": "test/Inventory.Domain.Tests/Inventory.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Inventory.Application.Tests": {
+      "path": "test/Inventory.Application.Tests/Inventory.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Inventory.Domain.Shared": {
+      "path": "src/Inventory.Domain.Shared/Inventory.Domain.Shared.abppkg",
+      "folder": "src"
+    }
+  }
+}

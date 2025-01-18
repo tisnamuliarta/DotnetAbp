@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "DotnetAbp.Application": {
+      "path": "src/DotnetAbp.Application/DotnetAbp.Application.abppkg",
+      "folder": "src"
+    },
+    "DotnetAbp.Application.Tests": {
+      "path": "test/DotnetAbp.Application.Tests/DotnetAbp.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "DotnetAbp.Domain.Shared": {
+      "path": "src/DotnetAbp.Domain.Shared/DotnetAbp.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "DotnetAbp.Application.Contracts": {
+      "path": "src/DotnetAbp.Application.Contracts/DotnetAbp.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "DotnetAbp.HttpApi": {
+      "path": "src/DotnetAbp.HttpApi/DotnetAbp.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "DotnetAbp.HttpApi.Client": {
+      "path": "src/DotnetAbp.HttpApi.Client/DotnetAbp.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "DotnetAbp.EntityFrameworkCore.Tests": {
+      "path": "test/DotnetAbp.EntityFrameworkCore.Tests/DotnetAbp.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "DotnetAbp.EntityFrameworkCore": {
+      "path": "src/DotnetAbp.EntityFrameworkCore/DotnetAbp.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "DotnetAbp.TestBase": {
+      "path": "test/DotnetAbp.TestBase/DotnetAbp.TestBase.abppkg",
+      "folder": "test"
+    },
+    "DotnetAbp.Domain.Tests": {
+      "path": "test/DotnetAbp.Domain.Tests/DotnetAbp.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "DotnetAbp.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/DotnetAbp.HttpApi.Client.ConsoleTestApp/DotnetAbp.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "DotnetAbp.DbMigrator": {
+      "path": "src/DotnetAbp.DbMigrator/DotnetAbp.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "DotnetAbp.HttpApi.Host": {
+      "path": "src/DotnetAbp.HttpApi.Host/DotnetAbp.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "DotnetAbp.Domain": {
+      "path": "src/DotnetAbp.Domain/DotnetAbp.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
